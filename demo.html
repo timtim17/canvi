@@ -1,11 +1,23 @@
+<!doctype HTML>
+<!--
+    CANVI
+    demo.html
+    Timtim Jenkins, 2014
+-->
 <html>
     <head>
         <title>canvi Demo Page</title>
 
         <script src="js/canvi.js"></script>
+        <script src="js/demo-page.js"></script>
     </head>
 
     <body>
-        <p>Demo Page Here</p>
+        <canvas height=400 width=400 id="canvi">
+            Your Browser Does Not Support Canvas (and therefore canvi)! Upgrade plz!
+        </canvas>
+        <br />
+        <button type="button" id="reset">Reset (Fill bg With White)</button>
+        <button type="button" id="bg_blue">Fill bg With Blue</button>
     </body>
 </html>
